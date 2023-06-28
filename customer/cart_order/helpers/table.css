@@ -1,0 +1,50 @@
+.tablecont
+{
+    margin: 40px 0px;
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center; */
+}
+
+table
+{
+    border: 2px solid;
+    border-radius: 7px;
+    margin: auto;
+}
+
+td
+{
+    
+}
+
+tr
+{
+
+}
+
+th
+{
+    
+}
+
+td, th
+{
+    padding: 7px 23px;
+}
+
+tbody>tr:nth-child(odd)
+{
+    background-color: #6bdf6b;
+}
+
+tbody>tr:nth-child(even)
+{
+    background-color: #98ffc4;
+}
+
+thead
+{
+    background-color: mediumpurple;
+    
+}

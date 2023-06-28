@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | SuperMart</title>
+
+    <style>
+
+        *
+        {
+            text-align: center;
+            box-sizing: border-box; 
+            transition: all 0.25s ease-out;
+        }
+
+        body
+        {
+            /* background-color: #91fff5; */
+            background: url("/supermart/welcome/bg.jpg");
+        }
+
+        h2
+        {
+
+        }
+
+        h3
+        {
+            font-size: 32px;
+        }
+
+        h2, h3
+        {
+
+        }
+
+        section
+        {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        
+        article
+        {
+            opacity: 0.4;
+            flex: 300px;
+            /* height: 85vh; */
+            padding: 24vh 0vw;
+        }
+
+        article#manager
+        {
+            background-color: #9bff92;
+        }
+
+        article#customer
+        {
+            background-color: #5ec1ff;
+        }
+
+        article:hover
+        {
+            opacity: 0.9;
+        }
+
+        a
+        {
+            text-decoration: none;
+        }
+
+        a.plink
+        {
+            color: white;
+            padding: 16px;
+            border-radius: 10px;
+        }
+
+        a#managerlink
+        {
+            background: #1dc31d;
+        }
+
+        a#managerlink:hover
+        {
+            background: #30ff30;
+        }
+
+        a#customerlink
+        {
+            background: #0047ff;
+        }
+
+        a#customerlink:hover
+        {
+            background: #6993fe;
+        }
+
+        a.slink
+        {
+            color: black;
+        }
+
+        a.slink:hover
+        {
+            text-decoration: underline;
+        }
+
+        @media (max-width:768px)
+        {
+            article
+            {
+                opacity: 0.9;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h2>
+        SuperMart
+    </h2>
+
+    <section>
+        <article id="manager">
+            <h3>Are you a Manager?</h3>
+            <a href="/supermart/manager/home/manager_home.php" id="managerlink" class="plink">Manager Home</a>
+        </article>
+        <article id="customer">
+            <h3>Are you a customer?</h3>
+            <a href="/supermart/customer/login_signup/login/login.php" class="plink" id="customerlink">Login</a>
+            <a href="/supermart/customer/login_signup/signup/signup.php" class="slink">Create an account</a>
+        </article>
+    </section>
+</body>
+</html>

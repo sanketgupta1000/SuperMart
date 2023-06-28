@@ -1,0 +1,29 @@
+@import "/supermart/helpers/base_container_stylesheet.css";
+@import "/supermart/customer/helpers/customer_header_stylesheet.css";
+@import "/supermart/customer/cart_order/helpers/table.css";
+
+section.infobox
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.orderinfo
+{
+
+}
+
+h3
+{
+
+}
+
+.buttoncont
+{
+
+}
+
+h3, .buttoncont
+{
+    text-align: center;
+}

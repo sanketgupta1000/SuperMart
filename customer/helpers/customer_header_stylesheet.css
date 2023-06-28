@@ -1,0 +1,80 @@
+*
+{
+    transition: all 0.25s ease-out;
+}
+
+header
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    border: 3px solid mediumpurple;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.headimg
+{
+    width: 45px;
+}
+
+.headimg:hover
+{
+    
+    background-color: rgb(75, 215, 169);
+}
+
+#menu
+{
+    border-radius: 32px;
+}
+
+#menu:hover
+{
+    cursor: pointer;
+    background-color: rgb(75, 215, 169);
+}
+
+.headerpart
+{
+    
+}
+
+#linkcont
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+a.headlinks
+{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+a.headlinks:hover
+{
+    
+}
+
+.product_card
+{
+    height: 380px;
+}
+
+.txtlink
+{
+    padding: 7px 7px;
+    background: #58cea7;
+    border-radius: 5px;
+    color: white;
+}
+
+.txtlink:hover
+{
+    background-color: #2ca97f;
+}

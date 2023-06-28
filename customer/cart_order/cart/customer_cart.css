@@ -1,0 +1,20 @@
+@import "/supermart/helpers/base_container_stylesheet.css";
+@import "/supermart/customer/helpers/customer_header_stylesheet.css";
+
+a#buynow
+{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+    background: #58cea7;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+a#buynow:hover
+{
+    background-color: #2ab98a;
+}

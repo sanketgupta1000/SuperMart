@@ -1,0 +1,82 @@
+@import "/supermart/helpers/base_container_stylesheet.css";
+
+*
+{
+    transition: all 0.25s ease-out;
+}
+
+header {
+    overflow: auto;
+    background-color: aquamarine;
+    border: 3px solid mediumpurple;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+#menu {
+    width: 63px;
+    border-radius: 32px;
+}
+
+#menu:hover
+{
+    background-color: rgb(75, 215, 169);
+    cursor: pointer;
+}
+
+h2.pagetitle {
+    width: 90%;
+    float: right;
+    text-align: center;
+}
+
+h2,
+h3 {}
+
+.btn
+{
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin: 2px 0px;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}
+
+#add
+{
+    background-color: lawngreen;
+}
+
+#add:hover
+{
+    /* cursor: pointer; */
+    background-color: rgb(91, 183, 0);
+
+}
+
+.deletebtn
+{
+    background: red;
+    color: white;
+}
+
+.deletebtn:hover
+{
+    background-color: rgb(190, 2, 2);
+}
+
+.editbtn
+{
+    background: #7070ff;
+    color: white;
+}
+
+.editbtn:hover
+{
+    background-color: #3232ff;
+}
